@@ -1,0 +1,18 @@
+server:
+  port: 7007
+spring:
+  application:
+    name: springcould-provider
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    username: root
+    password: root
+    url: jdbc:mysql://119.29.79.237:3306/school?useUnicode=true&characterEncoding=utf-8
+    driver-class-name: com.mysql.jdbc.Driver
+eureka:
+  instance:
+    instance-id: springcould-provider-7007(hystrix)
+#    描述信息
+  client:
+    service-url:
+      defaultZone: http://localhost:7004/eureka/,http://localhost:7005/eureka/

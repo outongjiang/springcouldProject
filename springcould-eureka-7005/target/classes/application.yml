@@ -1,0 +1,13 @@
+server:
+  port: 7005
+eureka:
+  instance:
+    hostname: eureka342.432.432.456
+  client:
+    register-with-eureka: false #是否向eureka注册中心注册自己
+    fetch-registry: false #表示自己就是注册中心
+    service-url:
+      defaultZone: http://localhost:7004/eureka/
+
+
+

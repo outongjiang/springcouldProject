@@ -1,0 +1,13 @@
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7004/eureka/,http://localhost:7005/eureka/
+    register-with-eureka: false
+  instance:
+    instance-id: springcould-consumer-7006
+    hostname: consumer231.321.321.321
+server:
+  port: 7006
+spring:
+  application:
+    name: springcould-consumer-7006
