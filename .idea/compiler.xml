@@ -10,6 +10,8 @@
         <module name="springcould-provider-7002" />
         <module name="springcould-api-7001" />
         <module name="springcloud-zuul-7008" />
+        <module name="springcloud-config-client-7100" />
+        <module name="springcould-config-server-7009" />
         <module name="springcould-consumer-7006" />
         <module name="springcould-eureka-7004" />
         <module name="springcould-consumer-7003" />

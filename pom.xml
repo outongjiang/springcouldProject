@@ -16,6 +16,8 @@
         <module>springcould-consumer-7006</module>
         <module>springcould-provider-7007</module>
         <module>springcloud-zuul-7008</module>
+        <module>springcould-config-server-7009</module>
+        <module>springcloud-config-client-7100</module>
     </modules>
     <packaging>pom</packaging>
     <properties>

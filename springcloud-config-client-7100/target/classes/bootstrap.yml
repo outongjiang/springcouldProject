@@ -1,0 +1,7 @@
+spring:
+  cloud:
+    config:
+      name: config-client
+      profile: dev1
+      label: brance1
+      uri: http://localhost:7009
